@@ -10,7 +10,7 @@ const Donar = () => {
   const [bloods, setBloods] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bloods").then((res) =>
+    fetch("https://blood-bank-backend-two.vercel.app/bloods").then((res) =>
       res.json().then((data) => setBloods(data))
     );
   }, []);
@@ -28,7 +28,7 @@ const Donar = () => {
     //   });
     // }
     axios
-      .post("http://localhost:5000/bloods", data)
+      .post("https://blood-bank-backend-two.vercel.app/bloods", data)
       .then((res) => {
         if (res.data.insertedId) {
           Swal.fire({

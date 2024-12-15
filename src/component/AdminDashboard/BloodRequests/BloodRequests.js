@@ -8,7 +8,7 @@ const BloodRequests = () => {
   const [bloodrequest, setBloodrequest] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bloodRequest")
+    fetch("https://blood-bank-backend-two.vercel.app/bloodRequest")
       .then((res) => res.json())
       .then((data) => {
         // const AproveRequestData =data.filter(data =>data.status ==="Approved")
@@ -18,7 +18,7 @@ const BloodRequests = () => {
   // update approved status
   const handleApproved = (id) => {
     axios
-      .put(`http://localhost:5000/bloodRequest/${id}`, {
+      .put(`https://blood-bank-backend-two.vercel.app/bloodRequest/${id}`, {
         status: "Approved",
       })
       .then((res) => {
@@ -34,7 +34,7 @@ const BloodRequests = () => {
   // // update rejected status
   const handleRejected = (id) => {
     axios
-      .put(`http://localhost:5000/bloodRequest/${id}`, {
+      .put(`https://blood-bank-backend-two.vercel.app/bloodRequest/${id}`, {
         status: "Rejected",
       })
       .then((res) => {

@@ -6,7 +6,7 @@ const RequestHistory = () => {
   const [bloodrequest, setBloodrequest] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bloodRequest")
+    fetch("https://blood-bank-backend-two.vercel.app/bloodRequest")
       .then((res) => res.json())
       .then((data) => {
         setBloodrequest(data);

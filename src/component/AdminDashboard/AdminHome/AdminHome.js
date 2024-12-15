@@ -15,7 +15,7 @@ const AdminHome = () => {
   const [rejected, setBloodRejected] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/donateBlood")
+    fetch("https://blood-bank-backend-two.vercel.app/donateBlood")
       .then((res) => res.json())
       .then((data) => {
         const Aprove = data.filter((data) => data?.status === "Approved");
@@ -29,7 +29,7 @@ const AdminHome = () => {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5000/bloodRequest")
+    fetch("https://blood-bank-backend-two.vercel.app/bloodRequest")
       .then((res) => res.json())
       .then((data) => {
         const AproveRequestData = data.filter(
@@ -47,7 +47,7 @@ const AdminHome = () => {
   return (
     <div className="p-3">
       <Charts></Charts>
-      <div >
+      <div>
         <h3 className=" mb-3 mt-3 subro">Total Donor Data</h3>
         <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
           <div className="col">

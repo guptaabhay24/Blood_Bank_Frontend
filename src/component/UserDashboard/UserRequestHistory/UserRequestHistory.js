@@ -8,13 +8,15 @@ const UserRequestHistory = () => {
   const { user } = useAuth();
 
   // useEffect(() => {
-  //   fetch(`http://localhost:5000/bloodRequest/${user.email}`)
+  //   fetch(`https://blood-bank-backend-two.vercel.app/bloodRequest/${user.email}`)
   //     .then((res) => res.json())
   //     .then((data) => setRequests(data));
   // }, [requests]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/${user.email}/bloodRequest`)
+    fetch(
+      `https://blood-bank-backend-two.vercel.app/${user.email}/bloodRequest`
+    )
       .then((res) => res.json())
       .then((data) => setRequests(data));
   }, [requests]);

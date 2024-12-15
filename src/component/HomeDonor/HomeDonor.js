@@ -19,7 +19,7 @@ const HomeDonor = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/donateBlood")
+    fetch("https://blood-bank-backend-two.vercel.app/donateBlood")
       .then((res) => res.json())
       .then((Donordata) => {
         console.log(Donordata);

@@ -14,7 +14,7 @@ const Charts = () => {
 
   //////load data//
   useEffect(() => {
-    fetch("http://localhost:5000/bloods")
+    fetch("https://blood-bank-backend-two.vercel.app/bloods")
       .then((res) => res.json())
       .then((approve) => {
         const data = approve.filter((data) => data?.status === "Approved");

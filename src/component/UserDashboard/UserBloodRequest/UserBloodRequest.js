@@ -12,7 +12,7 @@ const UserBloodRequest = () => {
     data.status = `Pending`;
     console.log(data);
     axios
-      .post("http://localhost:5000/bloodRequest", data)
+      .post("https://blood-bank-backend-two.vercel.app/bloodRequest", data)
       .then((res) => {
         if (res.data.insertedId) {
           Swal.fire({
