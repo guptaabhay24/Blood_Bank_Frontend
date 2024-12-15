@@ -1,0 +1,44 @@
+.donor-details{
+    text-align: center;
+}
+
+.action-btn{
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 5px 10px;
+    color: white;
+    background-color: brown;
+    font-family: inherit;
+}
+
+.t-head{
+    background-color: #3a799bed;
+    font-family: emoji;
+    font-size: 13px;
+}
+
+td{
+    font-size: 12px;
+    font-family: auto;
+    text-align: start;
+    border: 1px solid #8080804a;
+}
+
+.spner-btn{
+    margin: auto;
+    display: block;
+    margin-top: 149px;
+}
+
+.selected-fild{
+    width: 35px;
+}
+.approbe-btn{
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: #ffad04;
+    color: currentcolor;
+}

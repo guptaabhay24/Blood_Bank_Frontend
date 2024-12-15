@@ -1,0 +1,27 @@
+.blood-icon {
+  color: red;
+  text-align: end;
+  font-size: 18px;
+}
+.blood {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 700;
+  color: red;
+  font-family: emoji;
+}
+
+.stock-card p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.stock {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+.stock-card {
+  background-color: rgba(245, 151, 151, 0.26);
+  border-radius: 10px;
+  text-align: center;
+}

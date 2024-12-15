@@ -1,0 +1,72 @@
+.head-line {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(218, 69, 69);
+  align-items: center;
+}
+
+.log-out-btn {
+  border: none;
+  font-size: 14px;
+  background-color: rgb(218, 69, 69);
+  margin-right: 25px;
+  color: white;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.love {
+  color: aliceblue;
+  font-size: 19px;
+  padding: 0px 8px;
+}
+
+.blood-heading {
+  color: white;
+  font-size: 15px;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-left: 7px;
+  padding-top: 10px;
+}
+
+.dashbord-fild {
+  margin-left: 0px;
+}
+.dashbord-list {
+  background-color: #353a40;
+  /* height: 584px; */
+  padding-top: 17px;
+}
+
+.list-item {
+  list-style: none;
+  color: #bebcd2;
+  padding: 13px 0px;
+  border-bottom: 1px solid #ffffff1f;
+  font-family: serif;
+  text-align: start;
+}
+
+.list-icon {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.link-style {
+  text-decoration: none;
+}
+.noti {
+  margin-right: 26px;
+}
+.gonta {
+  font-size: 29px;
+  color: #070b0e;
+}
+
+.noti-btn {
+  background-color: #da4545;
+  border: none;
+}

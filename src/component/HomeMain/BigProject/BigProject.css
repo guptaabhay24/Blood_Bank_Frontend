@@ -1,0 +1,71 @@
+.goal{
+    display: flex;
+    justify-content: space-between;
+    font-family: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.donate-naw{
+    margin-top: -11px;
+    margin-left: 0px;
+    border: 1px solid gray;
+    padding: 8px 18px;
+    border-radius: 9px;
+    background-color: #595959;
+    font-size: 18px;
+    font-family: initial;
+    color: aliceblue;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.donate-naw:hover{
+    background-color: #d943c3;
+}
+
+.image{
+    border-radius: 5px;
+}
+
+
+.big-project{
+    font-family: initial;
+    text-align: center;
+    color: #595959;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+}
+
+
+.hospital{
+    font-family: serif;
+    letter-spacing: 1px;
+    font-size: 32px;
+    margin-top: 3px;
+}
+
+.hospital-string{
+    color: red;
+}
+
+.hospital-text{
+    font-family: 'Font Awesome 5 Pro';
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #181717;
+    font-weight: 100;
+}
+
+.money{
+    color: red;
+    font-family: monospace;
+    padding: 12px;
+    letter-spacing: 1px;
+}
+
+.terget{
+    color: black;
+    font-family: inherit;
+    font-size: 17px;
+}

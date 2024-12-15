@@ -1,0 +1,31 @@
+.image-tem{
+    margin-left: 88px;
+    width: 99px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -38px;
+    height: 93px;
+}
+
+.team{
+    background-color: #cb14142b;
+}
+
+.card-text{
+    /* margin-top: 36px; */
+    font-family: initial;
+}
+
+.team-fild{
+    /* background-color: #6f6381a8; */
+    /* height: 258px; */
+    border-radius: 8px;
+    padding-top: 12px;
+}
+
+.team-leader{
+    text-align: center;
+    margin-bottom: 46px;
+    font-family: serif;
+    letter-spacing: 3px;
+}

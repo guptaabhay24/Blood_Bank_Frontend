@@ -1,0 +1,112 @@
+.user-icon {
+  font-size: 22px;
+  margin-right: 8px;
+  color: blueviolet;
+}
+.blood-grp {
+  color: #ff0000ba;
+}
+
+.card-taitels {
+  font-family: auto;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.name-donar {
+  font-family: math;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.concact-btn {
+  border: navajowhite;
+  background-color: white;
+  font-family: ui-rounded;
+  letter-spacing: 1px;
+  color: blue;
+  border-bottom: 2px solid #0000ff9e;
+  display: flex;
+  margin-left: 164px;
+}
+
+.btn-contact {
+  background-color: white;
+  border: none;
+  color: blue;
+}
+.btn-contact:hover {
+  background-color: white;
+  color: red;
+}
+
+.Donor-src {
+  font-family: auto;
+  letter-spacing: 1px;
+  margin-left: 24px;
+  color: #e12a0d;
+  font-size: 37px;
+}
+
+.search-option {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 18px;
+  justify-content: space-around;
+}
+
+.searce-btn {
+  padding: 5px 21px;
+  margin-left: 16px;
+  background-color: #dc3545;
+  border: 1px solid gray;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.searce-btn:hover {
+  background-color: blueviolet;
+  color: black;
+}
+
+.select-option {
+  font-size: 18px;
+  margin-left: 7px;
+  font-family: none;
+  letter-spacing: 1px;
+}
+
+.smaill-css {
+  padding: 0px 6px;
+  color: #cb1730;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.no-fund {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-family: fangsong;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.select-options {
+  height: 36px;
+  padding: 4px;
+  color: red;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.make-req {
+  padding: 20px;
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.082);
+  border-radius: 20px;
+}

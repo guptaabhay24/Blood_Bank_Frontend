@@ -1,0 +1,52 @@
+.bollad-group{
+    text-align: end;
+    font-family: revert;
+    font-size: 20px;
+
+}
+
+.bollad{
+    color: red;
+    padding-left: 4px;
+}
+.person{
+    font-size: 18px;
+    font-family: monospace;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.donor-icon{
+    text-align: end;
+    font-size: 25px;
+    color: #ba1ce1;
+    margin: 0px;
+}
+
+.total{
+    color: #ba1ce1;
+    font-family: auto;
+    /* letter-spacing: 2px; */
+    margin-top: 17px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.count{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: serif;
+}
+
+.total-css{
+    border-radius: 9px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+}
+
+.subro{
+    font-family: "Eczar", serif;
+    letter-spacing: 2px;
+}
+

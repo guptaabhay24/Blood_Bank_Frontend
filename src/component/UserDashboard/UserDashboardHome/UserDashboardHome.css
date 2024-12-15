@@ -1,0 +1,42 @@
+.total {
+  margin: 0;
+  color: #000000;
+}
+.count {
+  color: #000000ec;
+}
+.donor-icon {
+  text-align: end;
+  font-size: 25px;
+  color: #3c06fd;
+  margin: 0px;
+}
+
+.card-plate-d {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  /* background: linear-gradient(to right, #d6a295 0%, #ffe8e8 100%); */
+  background-color: rgba(221, 175, 155, 0.575);
+  border-radius: 10px;
+  text-align: center;
+}
+.card-plate-r {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  background-color: rgba(155, 221, 172, 0.575);
+  border-radius: 10px;
+  text-align: center;
+}
+/* .card-plate {
+  background-color: #da8d75;
+  border-radius: 10px;
+  text-align: center;
+}
+.total-text {
+  text-align: center;
+  font-size: 24px;
+}
+.count-text {
+  text-align: center;
+  font-size: 34px;
+  border: 1px solid black;
+  border-radius: 50px;
+} */

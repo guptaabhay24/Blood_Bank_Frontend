@@ -1,0 +1,28 @@
+.request-blood-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.request-blood-form input,
+.request-blood-form button,
+.request-blood-form select {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: 0;
+}
+
+.request-blood-form {
+  padding: 25px 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
