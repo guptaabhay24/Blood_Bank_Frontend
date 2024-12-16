@@ -10,7 +10,9 @@ const UserDonateBlood = () => {
   const [donars, setDonars] = useState([]);
 
   useEffect(() => {
-    fetch("https://blood-bank-backend-two.vercel.app/donateBlood").then((res) =>
+    fetch("https://blood-bank-backend-two.vercel.app/donateBlood", {
+      method: 'GET',
+    }).then((res) =>
       res.json().then((data) => setDonars(data))
     );
   }, []);
