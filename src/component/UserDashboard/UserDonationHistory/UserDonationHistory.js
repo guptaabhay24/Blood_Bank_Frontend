@@ -8,8 +8,9 @@ const UserDonationHistory = () => {
   const [donations, setDonations] = useState([]);
 
   useEffect(() => {
-    fetch(`https://blood-bank-backend-two.vercel.app/${user.email}/bloods`)
-      .then((res) => res.json())
+    fetch(`https://blood-bank-backend-two.vercel.app/${user.email}/bloods`), {
+      method: 'GET'
+    }).then((res) => res.json())
       .then((data) => setDonations(data));
   }, []);
 
