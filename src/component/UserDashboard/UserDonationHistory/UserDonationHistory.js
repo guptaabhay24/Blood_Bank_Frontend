@@ -10,8 +10,9 @@ const UserDonationHistory = () => {
   useEffect(() => {
     fetch(`https://blood-bank-backend-two.vercel.app/${user.email}/bloods`), {
       method: 'GET'
-    }).then((res) => res.json())
-      .then((data) => setDonations(data));
+    });
+    .then((res) => res.json())
+    .then((data) => setDonations(data));
   }, []);
 
   // if (!donations.length) {
